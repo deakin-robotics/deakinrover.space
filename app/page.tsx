@@ -6,6 +6,7 @@ import { Gallery } from "@/components/main/gallery";
 import { LogoSection } from "@/components/main/logo-section";
 import { Fixed3DModel } from "@/components/sub/fixed-3d-model";
 import { Mobile3DModel } from "@/components/sub/mobile-3d-model";
+import {VideoEmbed} from "@/components/main/VideoEmbed";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
         <PastAchievements />
         <Sponsors />
         <Gallery />
+        <VideoEmbed videoId="pFhHjHLlFj8" />
         {/* <Skills /> */}
         {/* <Encryption /> */}
         {/* <Projects /> */}
